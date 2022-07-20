@@ -1,12 +1,16 @@
-import NavBar from "./Components/NavBar";
-import ChatArea from "./Components/ChatArea";
+import ChatsArea from "./components/ChatsArea";
+import NavBar from "./components/NavBar";
+import Main from "./components/Main";
 
 function App() {
   return (
     <>
       <NavBar />
       <div className="w-full h-full md:h-[880px] md:py-5 fixed">
-        <ChatArea />
+        <div className="flex flex-row justify-center w-full h-full mx-auto bg-white md:w-1/2">
+          <ChatsArea />
+          <Main />
+        </div>
       </div>
     </>
   );
