@@ -1,8 +1,15 @@
+import React, { useEffect } from "react";
 import ChatsArea from "./components/ChatsArea";
 import NavBar from "./components/NavBar";
 import Main from "./components/Main";
+import { useSelector } from "react-redux";
 
 function App() {
+  const state = useSelector((state) => state);
+  useEffect(() => {
+    console.log(state);
+  }, [state]);
+
   return (
     <>
       <NavBar />
