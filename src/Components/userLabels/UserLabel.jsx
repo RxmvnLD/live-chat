@@ -14,8 +14,8 @@ const UserLabel = () => {
         <h2 className="font-semibold">Friend name</h2>
         <p className="text-sm">Friend status</p>
         <div className="flex flex-row gap-1">
-          <Button color={"bg-blue-500"}>New Message</Button>
-          <Button color={"bg-red-500"}>Delete Contact</Button>
+          <Button color={"bg-blue-500"}>Add Contact</Button>
+          <Button color={"bg-red-500"}>Block Contact</Button>
         </div>
       </div>
     </div>

@@ -5,11 +5,6 @@ import Main from "./components/Main";
 import { useSelector } from "react-redux";
 
 function App() {
-  const state = useSelector((state) => state);
-  useEffect(() => {
-    console.log(state);
-  }, [state]);
-
   return (
     <>
       <NavBar />
